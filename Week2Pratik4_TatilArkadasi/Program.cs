@@ -48,5 +48,6 @@ YolYanlissa: // 1 veya 2 dfegeri disinda deger girilirse yol icin tekrar basa do
     if (Cevap == "evet") 
         devamMi = true; // evet cevabinda while dongusu tekrar baslar ve hayir cevabinda while dongusu sonlanir
     else if (Cevap == "hayir")
+        Console.WriteLine ("Iyi gunler");
         devamMi = false;
 }
